@@ -81,44 +81,6 @@ nav a.active {
     background-color: var(--light-green);
 }
 
-/* ---------- grid container styling ---------- */
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 1em;
-    gap: 1em;
-}
-
-@media (min-width: 600px) {
-    .grid-container {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (min-width: 992px) {
-    .grid-container {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
-.grid-container > article {
-    text-align: center;
-    padding: 2em 1em;
-    background-color: var(--white);
-    transition: 0.3s;
-    cursor: pointer;
-}
-
-.grid-container > article:hover {
-    box-shadow: 0 8px 16px 0 var(--green-opacity);
-}
-
-.grid-container > article img {
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-}
-
 /* ---------- page grid styling ---------- */
 
 /* The grid container */
