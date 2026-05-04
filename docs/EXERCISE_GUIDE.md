@@ -10,7 +10,7 @@ Test the solution here: https://cederdorff.com/react-vite-page-layout/
 
 ## What You Are Building
 
-![Solution preview](docs/images/solution.png)
+![Solution preview](images/solution.png)
 
 You will build a React page with 4 components:
 
@@ -535,7 +535,7 @@ export default function App() {
 
 You can now see all 4 parts in browser. The CSS styling should also be applied.
 
-![Step 4 result preview](docs/images/solution.png)
+![Step 4 result preview](images/solution.png)
 
 Next step: complete the core checklist in section 5.
 
@@ -567,7 +567,7 @@ After you complete all core tasks in section 5, continue with this exercise.
 
 Build one extra component with image, text, and button, inspired by this design reference:
 
-![Media component reference](docs/images/media-component-logo-bricks.avif)
+![Media component reference](images/media-component-logo-bricks.avif)
 
 ### 6.1 Create the component file
 
