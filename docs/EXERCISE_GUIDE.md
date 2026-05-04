@@ -4,7 +4,7 @@ Test the solution here: https://cederdorff.com/react-vite-page-layout/
 
 ---
 
-> **How to work:** Do this on your own — but sit next to someone with coding experience so you can ask for help along the way.
+> **How to work:** Do this on your own, but sit next to someone with coding experience so you can ask for help along the way.
 
 ---
 
@@ -22,7 +22,7 @@ You will build a React page with 4 core components:
 Then you will extend the page with a MediaCard component shown in a responsive media-grid (3 cards).
 
 You must create the React project yourself.
-You can copy-paste the CSS styling in step 2.
+You can copy and paste the CSS styling in step 2.
 You will test in small steps as you build.
 
 ## Choose Your Support Level
@@ -75,7 +75,7 @@ export default function App() {
 
 ### Checkpoint
 
-App still runs in browser without compile errors.
+App still runs in the browser without compile errors.
 
 ---
 
@@ -277,7 +277,7 @@ Common mistakes:
 
 ### Checkpoint
 
-Project still runs after saving.
+The project still runs after saving.
 
 ---
 
@@ -340,7 +340,7 @@ export default function App() {
 4. Save and check browser:
 
 - You should see the top bar with Home.
-- No red errors in editor.
+- No red errors in the editor.
 
 ### 3.3 Create and test Header.jsx
 
@@ -386,7 +386,7 @@ export default function App() {
 4. Save and check browser:
 
 - You should see Home at the top and Header below.
-- No red errors in editor.
+- No red errors in the editor.
 
 ### 3.4 Create and test MainContent.jsx
 
@@ -442,7 +442,7 @@ export default function App() {
 4. Save and check browser:
 
 - You should now see the three Column areas.
-- No red errors in editor.
+- No red errors in the editor.
 
 ### 3.5 Create and test Footer.jsx
 
@@ -492,7 +492,7 @@ export default function App() {
 4. Save and check browser:
 
 - You should see Navigation, Header, 3 columns, and Footer.
-- No red errors in editor.
+- No red errors in the editor.
 
 ### 3.6 Quick check before moving on
 
@@ -503,7 +503,7 @@ export default function App() {
 
 ### Checkpoint
 
-No red errors in editor.
+No red errors in the editor.
 
 ---
 
@@ -535,7 +535,7 @@ export default function App() {
 
 ### Checkpoint
 
-You can now see all 4 parts in browser. The CSS styling should also be applied.
+You can now see all 4 parts in the browser. The CSS styling should also be applied.
 
 ![Step 4 result preview](images/solution.png)
 
@@ -567,7 +567,7 @@ npm run build
 
 After you complete all core tasks in section 5, continue with this exercise.
 
-Build one extra component with image, text, and button, inspired by this design reference:
+Build one extra component with an image, text, and a button, inspired by this design reference:
 
 ![Media component reference](images/media-component-logo-bricks.avif)
 
@@ -679,13 +679,13 @@ export default function MediaCard() {
 
 ### 6.4 Test and verify
 
-1. Save and test in browser.
+1. Save and test in the browser.
 2. Verify on both narrow and wide screen sizes.
 3. Confirm there are no red errors in the editor.
 
 ### Checkpoint
 
-You can see a media component with image, text, and button in the middle area.
+You can see a media component with an image, text, and a button in the middle area.
 
 ### 6.5 Extend: show 3 cards in a media-grid
 
