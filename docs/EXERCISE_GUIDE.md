@@ -1,4 +1,4 @@
-# React Page Layout Exercise (Step-by-step)
+# React Page Layout with Components
 
 Test the solution here: https://cederdorff.com/react-vite-page-layout/
 
