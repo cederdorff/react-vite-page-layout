@@ -589,16 +589,16 @@ export default function MediaCard() {
   return (
     <article className="media-card">
       <img
-        className="media-card__image"
+        className="media-card-image"
         src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1000&q=80"
         alt="Laptop and code on a desk"
       />
-      <div className="media-card__content">
-        <h2 className="media-card__title">Build Better UI Components</h2>
-        <p className="media-card__text">
+      <div className="media-card-content">
+        <h2 className="media-card-title">Build Better UI Components</h2>
+        <p className="media-card-text">
           This is a reusable media component with an image, text, and a button.
         </p>
-        <button className="media-card__button">Learn more</button>
+        <button className="media-card-button">Learn more</button>
       </div>
     </article>
   );
@@ -635,28 +635,28 @@ export default function MediaCard() {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
 }
 
-.media-card__image {
+.media-card-image {
   display: block;
   width: 100%;
   height: 180px;
   object-fit: cover;
 }
 
-.media-card__content {
+.media-card-content {
   padding: 1rem;
 }
 
-.media-card__title {
+.media-card-title {
   margin: 0 0 0.5rem;
   font-size: 1.25rem;
 }
 
-.media-card__text {
+.media-card-text {
   margin: 0 0 1rem;
   line-height: 1.5;
 }
 
-.media-card__button {
+.media-card-button {
   background: var(--green);
   color: var(--text-color-light);
   border: 0;
@@ -665,8 +665,8 @@ export default function MediaCard() {
   cursor: pointer;
 }
 
-.media-card__button:hover,
-.media-card__button:focus-visible {
+.media-card-button:hover,
+.media-card-button:focus-visible {
   background: #1f404b;
 }
 ```
