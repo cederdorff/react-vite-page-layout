@@ -81,7 +81,15 @@ App still runs in the browser without compile errors.
 
 ## 2. Add the Styling (Copy-Paste)
 
-Now that the starter is cleaned up, paste this CSS into `src/styles.css`.
+In a brand new Vite React project, the default global file is `src/index.css`.
+In this guide, you can choose one of these paths:
+
+1. Keep the default file name and paste into `src/index.css`.
+2. Rename `src/index.css` to `src/styles.css`, then paste into `src/styles.css`.
+
+Use only one global CSS file, not both.
+
+Now paste this CSS into your chosen global CSS file.
 
 ```css
 /* ---------- root variables ---------- */
@@ -250,7 +258,13 @@ footer,
 }
 ```
 
-Also confirm that `src/main.jsx` imports the stylesheet:
+Also confirm that `src/main.jsx` imports your chosen global stylesheet:
+
+```jsx
+import "./index.css";
+```
+
+If you renamed to `styles.css`, then use:
 
 ```jsx
 import "./styles.css";
@@ -412,9 +426,9 @@ export default function MainContent() {
 
 Class matching reminder:
 
-- `className="left"` is styled by `.left` in `src/styles.css`
-- `className="middle"` is styled by `.middle` in `src/styles.css`
-- `className="right"` is styled by `.right` in `src/styles.css`
+- `className="left"` is styled by `.left` in your global CSS file
+- `className="middle"` is styled by `.middle` in your global CSS file
+- `className="right"` is styled by `.right` in your global CSS file
 
 3. Update `src/App.jsx` so it renders Navigation, Header, and MainContent:
 
@@ -558,7 +572,7 @@ npm run build
 2. App.css is removed and App.jsx is cleaned.
 3. 4 components are created in separate files.
 4. App composes the 4 components in the correct order.
-5. CSS is applied from styles.css.
+5. CSS is applied from your global CSS file (`src/index.css` or `src/styles.css`).
 6. `npm run lint` and `npm run build` both pass.
 
 ---
@@ -617,7 +631,7 @@ export default function MediaCard() {
 
 ### 6.3 Style the component
 
-1. Open `src/styles.css`.
+1. Open your global CSS file (`src/index.css` or `src/styles.css`).
 2. Create CSS classes for the media component (`.media-card`, image, content, title, text, button).
 3. Minimum styling requirements:
 
@@ -720,7 +734,7 @@ export default function MainContent() {
 
 </details>
 
-4. Open `src/styles.css`.
+4. Open your global CSS file (`src/index.css` or `src/styles.css`).
 5. Add grid styling for `.media-grid`.
 
 <details>
