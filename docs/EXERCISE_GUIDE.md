@@ -685,6 +685,64 @@ export default function MediaCard() {
 
 You can see a media component with image, text, and button in the middle area.
 
+### 6.5 Extend: show 3 cards in a media-grid
+
+Now extend your solution so the middle area shows a responsive grid with 3 media cards.
+
+1. Open `src/components/MainContent.jsx`.
+2. Wrap your cards in a container with class `media-grid`.
+3. Render `MediaCard` three times inside the grid.
+
+<details>
+<summary>Need help? Show MainContent.jsx with 3-card grid</summary>
+
+```jsx
+import MediaCard from "./MediaCard";
+
+export default function MainContent() {
+  return (
+    <>
+      <section className="left">Column</section>
+      <section className="middle">
+        <div className="media-grid">
+          <MediaCard />
+          <MediaCard />
+          <MediaCard />
+        </div>
+      </section>
+      <section className="right">Column</section>
+    </>
+  );
+}
+```
+
+</details>
+
+4. Open `src/styles.css`.
+5. Add grid styling for `.media-grid`.
+
+<details>
+<summary>Need help? Show starter CSS for media-grid</summary>
+
+```css
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+```
+
+</details>
+
+6. Save and test:
+
+- On smaller screens, cards should stack.
+- On wider screens, cards should line up in multiple columns.
+
+### Final checkpoint for section 6
+
+You can see a responsive media-grid with 3 cards in the middle area.
+
 ---
 
 ## 7. Stretch Tasks (If You Finish Early)

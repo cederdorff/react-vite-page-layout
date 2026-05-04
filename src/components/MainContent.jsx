@@ -5,8 +5,11 @@ export default function MainContent() {
     <>
       <section className="left">Column</section>
       <section className="middle">
-        <MediaCard />
-        <MediaCard />
+        <div className="media-grid">
+          <MediaCard />
+          <MediaCard />
+          <MediaCard />
+        </div>
       </section>
       <section className="right">Column</section>
     </>
