@@ -12,12 +12,14 @@ Test the solution here: https://cederdorff.com/react-vite-page-layout/
 
 ![Solution preview](images/solution.png)
 
-You will build a React page with 4 components:
+You will build a React page with 4 core components:
 
 1. Navigation
 2. Header
 3. MainContent
 4. Footer
+
+Then you will extend the page with a MediaCard component shown in a responsive media-grid (3 cards).
 
 You must create the React project yourself.
 You can copy-paste the CSS styling in step 2.
