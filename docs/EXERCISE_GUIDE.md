@@ -45,7 +45,7 @@ Use one of these two modes while doing the same exercise:
 
 ## 0. Create a New React Project
 
-Create a new project named react-page-layout. If you do not remember how to set up a new React project, follow step 1 in [Getting started with React](/0fd48b8ae90a438bb6ec8dc95628f13f?pvs=25).
+Create a new project named react-page-layout. If you do not remember how to set up a new React project, follow step 1 in [Getting started with React](https://www.notion.so/Getting-started-with-React-0fd48b8ae90a438bb6ec8dc95628f13f).
 
 ### Checkpoint
 
